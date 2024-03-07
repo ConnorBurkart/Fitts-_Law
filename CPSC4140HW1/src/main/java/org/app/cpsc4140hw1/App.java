@@ -89,8 +89,8 @@ public class App extends javafx.application.Application {
 
 
         // Random position within the window
-        double randomX = Math.random() * (windowWidth - circleSize);
-        double randomY = Math.random() * (windowHeight - circleSize);
+        double randomX = Math.random() * (windowWidth - 1 - circleSize);
+        double randomY = Math.random() * (windowHeight - 1 - circleSize);
 
 
         // Create a random circle
